@@ -44,7 +44,7 @@ export const OtpPasswordReset: React.FC<OtpPasswordResetProps> = ({ onBack, onSu
             const timeoutId = setTimeout(() => controller.abort(), 10000);
 
             // const response = await fetch('/api/admin/forgot-password', {
-            const response = await fetch('http://localhost:5000/api/admin/forgot-password', {
+            const response = await fetch('https://eduupskills.com/api/admin/forgot-password', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -104,7 +104,7 @@ export const OtpPasswordReset: React.FC<OtpPasswordResetProps> = ({ onBack, onSu
             const timeoutId = setTimeout(() => controller.abort(), 10000);
 
             // const response = await fetch('/api/admin/reset-password', {
-            const response = await fetch('http://localhost:5000/api/admin/reset-password', {
+            const response = await fetch('https://eduupskills.com/api/admin/reset-password', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

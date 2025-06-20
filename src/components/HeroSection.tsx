@@ -11,7 +11,7 @@ export const HeroSection = () => {
           className="w-full h-full object-cover"
         >
           <source
-            src="/public/videos/websiteVideo.mp4.mp4"
+            src="https://videos.pexels.com/video-files/7945680/7945680-hd_1920_1080_25fps.mp4"
             type="video/mp4"
           />
 
