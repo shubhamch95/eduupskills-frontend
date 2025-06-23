@@ -17,6 +17,7 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
     identifier: '',
     password: ''
   });
+  
   const [isLoading, setIsLoading] = useState(false);
   const [showOtpReset, setShowOtpReset] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
